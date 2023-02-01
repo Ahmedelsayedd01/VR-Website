@@ -9,7 +9,7 @@ const App = () => {
   const [navMobile, setNavMobile] = useState(true);
   return (
     <div>
-      <Header aetNavMobile={setNavMobile} />
+      <Header etNavMobile={setNavMobile} />
       <Banner />
       {/* mobile nav */}
       <div
@@ -17,7 +17,7 @@ const App = () => {
           navMobile ? "right-0" : "-right-full"
         } fixed top-0 bottom-0 w-48 transition-all`}
       >
-        <NavMobile aetNavMobile={setNavMobile}/>
+        <NavMobile etNavMobile={setNavMobile} />
       </div>
     </div>
   );
