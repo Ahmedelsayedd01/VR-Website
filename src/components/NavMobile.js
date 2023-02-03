@@ -1,15 +1,9 @@
 import React from "react";
 
 //import icon
-import { IoClose } from "react-icons/io5";
-const NavMobile = ({ setNavMobile }) => {
-  
+const NavMobile = () => {
   return (
     <nav className="lg:hidden bg-[#251f3f] h-full">
-      
-
-
-      
       <ul
         className="flex flex-col items-center 
         justify-center space-y-8 h-full

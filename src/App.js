@@ -9,17 +9,17 @@ import { HiMenu } from "react-icons/hi";
 import { IoClose } from "react-icons/io5";
 
 const App = () => {
-  const [navMobile, setNavMobile] = useState(true);
+  const [navMobile, setNavMobile] = useState(false);
   return (
     <div>
       <div className="relative container mx-auto">
         <Header />
         {/* nav mobile btn open */}
         <HiMenu
-          onClick={() => setNavMobile(!false)}
+          onClick={() => setNavMobile(true)}
           className="lg:hidden absolute top-[33%] right-[4%]
           text-3xl text-white cursor-pointer"
-          />
+        />
       </div>
 
       <Banner />
@@ -35,7 +35,7 @@ const App = () => {
           onClick={() => {
             setNavMobile(false);
           }}
-      className="text-3xl absolute left-4
+          className="text-3xl absolute left-4
       top-6 cursor-pointer"
         />
         <NavMobile />
