@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 
+//import Icon
+import { HiMenu } from "react-icons/hi";
+import { IoClose } from "react-icons/io5";
 // import Components
 import Banner from "./components/Banner";
 import Header from "./components/Header";
 import NavMobile from "./components/NavMobile";
-//import Icon
-import { HiMenu } from "react-icons/hi";
-import { IoClose } from "react-icons/io5";
 import Experience from "./components/Experience";
+import Video from "./components/Video";
 
 const App = () => {
   const [navMobile, setNavMobile] = useState(false);
@@ -47,6 +48,7 @@ const App = () => {
         <NavMobile />
       </div>
       <Experience />
+      <Video />
     </div>
   );
 };
