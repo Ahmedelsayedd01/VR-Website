@@ -7,12 +7,18 @@ import NavMobile from "./components/NavMobile";
 //import Icon
 import { HiMenu } from "react-icons/hi";
 import { IoClose } from "react-icons/io5";
+import Experience from "./components/Experience";
 
 const App = () => {
   const [navMobile, setNavMobile] = useState(false);
   return (
     <div>
-      <div className="relative container mx-auto">
+      <div
+        className="relative container mx-auto overflow-hidden
+       before:w-[600px] before:h-[200px] before:bg-circle
+       before:bg-no-repeat before:absolute before:-top-16
+       before:left-[600px] before:hidden before:lg:flex"
+      >
         <Header />
         {/* nav mobile btn open */}
         <HiMenu
@@ -40,6 +46,7 @@ const App = () => {
         />
         <NavMobile />
       </div>
+      <Experience />
     </div>
   );
 };
