@@ -15,7 +15,8 @@ import { slider } from "../data";
 
 const TestimonialSlider = () => {
   return (
-    <Swiper breakpoints={{
+    <Swiper
+      breakpoints={{
         320: {
           slidesPerView: 1,
           spaceBetween: 18,
@@ -53,7 +54,6 @@ const TestimonialSlider = () => {
                 <div className="font-medium text-rose-600">{email}</div>
               </div>
             </div>
-            
           </SwiperSlide>
         );
       })}
