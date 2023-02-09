@@ -54,7 +54,6 @@ const TestimonialSlider = () => {
                 <div className="font-medium text-rose-600">{email}</div>
               </div>
             </div>
-            <div></div>
           </SwiperSlide>
         );
       })}
