@@ -53,7 +53,7 @@ const App = () => {
       <Video />
       <Headsets />
       <Testimonial />
-      <div></div>
+      
     </div>
   );
 };
