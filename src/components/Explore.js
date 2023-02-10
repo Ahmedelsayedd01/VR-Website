@@ -6,7 +6,7 @@ const Explore = () => {
       <div className="container mx-auto h-full">
         <div className="h-full bg-explore bg-no-repeat
         bg-cover p-14 flex flex-col items-start
-        ">
+        justify-center">
           <h3>Explore product in new way</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque
