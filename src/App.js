@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 //import Icon
 import { HiMenu } from "react-icons/hi";
@@ -12,9 +12,21 @@ import Video from "./components/Video";
 import Headsets from "./components/Headsets";
 import Testimonial from "./components/Testimonial";
 import Explore from "./components/Explore";
+//import Aos Animation on Scroll
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const App = () => {
   const [navMobile, setNavMobile] = useState(false);
+
+  // Aos initialization
+  useEffect(() => {
+    Aos.init({
+      duration: 2500,
+      delay: 400,
+    });
+  });
+
   return (
     <div>
       <div
