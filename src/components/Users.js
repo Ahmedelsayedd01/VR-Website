@@ -15,6 +15,8 @@ const Users = () => {
       className="flex flex-col justify-center
     items-center space-x-5 space-y-2 lg:flex-row
     lg:space-y-0 lg:justify-start"
+      data-aos="fade-down"
+      data-aos-delay="900"
     >
       <div className="flex -space-x-2">
         <div className="w-1/2 h-1/2 rounded-full">
@@ -30,10 +32,14 @@ const Users = () => {
           <img src={Avatar4} alt="" />
         </div>
       </div>
-      <div className="flex items-center space-x-2
-      font-secondary font-medium">
-        <BsFillCircleFill className="text-xs
-        text-green-500  animate-pulse"/>
+      <div
+        className="flex items-center space-x-2
+      font-secondary font-medium"
+      >
+        <BsFillCircleFill
+          className="text-xs
+        text-green-500  animate-pulse"
+        />
         <div>400k people online</div>
       </div>
     </div>
