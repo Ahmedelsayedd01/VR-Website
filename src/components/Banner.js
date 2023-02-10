@@ -9,10 +9,18 @@ const Banner = () => {
         <div className="flex flex-col lg:flex-row">
           {/* text */}
           <div>
-            <h1 className="text-3xl font-bold mb-8 lg:text-5xl lg:leading-snug">
+            <h1
+              className="text-3xl font-bold mb-8 lg:text-5xl lg:leading-snug"
+              data-aos="fade-down"
+              data-aos-delay="500"
+            >
               Let's Explore <br /> Three-Dimensional Visually.
             </h1>
-            <p className="font-secondary mb-12 max-w-[440px] mx-auto lg:mx-0">
+            <p
+              className="font-secondary mb-12 max-w-[440px] mx-auto lg:mx-0"
+              data-aos="fade-down"
+              data-aos-delay="600"
+            >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
               sagittis augue tortor, non aliquam libero.
             </p>
@@ -21,6 +29,8 @@ const Banner = () => {
               className="flex items-center justify-around 
             space-x-4 max-w-[320] mx-auto mb-12 
             lg:space-x-8 lg:mx-0 lg:max-w-none lg:justify-start"
+              data-aos="fade-down"
+              data-aos-delay="700"
             >
               <button className="btn">Get it now</button>
               <a
