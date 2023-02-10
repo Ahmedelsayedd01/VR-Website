@@ -7,8 +7,8 @@ const Explore = () => {
         <div className="h-full bg-explore bg-no-repeat
         bg-cover p-14 flex flex-col items-start
         justify-center">
-          <h3>Explore product in new way</h3>
-          <p>
+          <h3 className="text-3xl font-semibold mb-8">Explore product in new way</h3>
+          <p className="max-w-xs mb-12">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque
             lobortis fringilla ante vel ornare. Nunc luctus lectus ut dui
             tristique.
