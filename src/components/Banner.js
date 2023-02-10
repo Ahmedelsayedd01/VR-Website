@@ -1,5 +1,5 @@
 import React from "react";
-// import Components
+// import Componentsb
 import Users from "../components/Users";
 import Img from "../assets/img/banner-img.png";
 const Banner = () => {
