@@ -17,7 +17,8 @@ const Header = () => {
           {/* logo */}
           <a href="#">
             <img className="h-[30px]" src={Logo} alt="" />
-          </a>
+          </a> 
+
           {/* nav */}
           <Nav />
         </div>

@@ -22,15 +22,19 @@ const Users = () => {
         <div className="w-1/2 h-1/2 rounded-full">
           <img src={Avatar1} alt="" />
         </div>
+     
         <div className="w-1/2 h-1/2 rounded-full">
           <img src={Avatar2} alt="" />
         </div>
+     
         <div className="w-1/2 h-1/2 rounded-full">
           <img src={Avatar3} alt="" />
         </div>
+     
         <div className="w-1/2 h-1/2 rounded-full">
           <img src={Avatar4} alt="" />
         </div>
+     
       </div>
       <div
         className="flex items-center space-x-2

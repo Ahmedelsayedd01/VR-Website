@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 //import Icon
 import { HiMenu } from "react-icons/hi";
 import { IoClose } from "react-icons/io5";
+
 // import Components
 import Banner from "./components/Banner";
 import Header from "./components/Header";
@@ -12,6 +13,7 @@ import Video from "./components/Video";
 import Headsets from "./components/Headsets";
 import Testimonial from "./components/Testimonial";
 import Explore from "./components/Explore";
+
 //import Aos Animation on Scroll
 import Aos from "aos";
 import "aos/dist/aos.css";

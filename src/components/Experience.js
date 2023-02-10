@@ -10,7 +10,7 @@ const Experience = () => {
       <div className="container mx-auto">
         <div
           className="flex flex-col min-h-[480px]
-        lg:space-x-20 lg:flex-row"
+        lg:space-x-20 lg:flex-row overflow-hidden"
         >
           <div
             className="flex-1 flex space-x-6
@@ -24,7 +24,8 @@ const Experience = () => {
             >
               <img src={Img1} alt="" />
             </div>
-            <div className="self-end" data-aos="fade-up">
+            <div className="self-end" 
+            data-aos="fade-up">
               <img src={Img2} alt="" />
             </div>
           </div>
@@ -40,8 +41,6 @@ const Experience = () => {
             </h2>
             <p className="font-secondary mb-6">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse vulputate augue tortor, in tincidunt dui consequat
-              sed. Vivamus laoreet odio.
             </p>
             <button className="btn">Get it now</button>
           </div>

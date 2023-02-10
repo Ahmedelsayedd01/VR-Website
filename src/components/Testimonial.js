@@ -32,9 +32,11 @@ const Testimonial = () => {
             </p>
           </div>
           {/* slider */}
-          <div data-aos="fade-up"
-              data-aos-offset="300"
-              data-aos-delay="2000">
+          <div
+           data-aos="fade-up"
+          data-aos-offset="300"
+          data-aos-delay="2000"
+          >
             <TestimonialSlider />
           </div>
         </div>

@@ -9,18 +9,26 @@ const Explore = () => {
         bg-cover p-14 flex flex-col items-start
         justify-center"
         >
-          <h3 className="text-3xl font-semibold mb-8">
+          <h3
+            className="text-3xl font-semibold mb-8"
+            data-aos="fade-right"
+            data-aos-offset="1000"
+          >
             Explore product in new way
           </h3>
-          <p className="max-w-xs mb-12">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque
-            lobortis fringilla ante vel ornare. Nunc luctus lectus ut dui
-            tristique.
+          <p
+            className="max-w-xs mb-12"
+            data-aos="fade-right"
+            data-aos-offset="1100"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
           {/* Form */}
           <form
             className="flex flex-col w-full space-y-4
           gap-x-4 lg:flex-row lg:space-y-0"
+            data-aos="fade-up"
+            data-aos-offset="200"
           >
             <input
               className="bg-gradient-to-t from-[#341D38]

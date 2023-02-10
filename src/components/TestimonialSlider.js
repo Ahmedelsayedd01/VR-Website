@@ -42,6 +42,7 @@ const TestimonialSlider = () => {
             key={index}
           >
             <p className="mb-8 min-h-[100px] text-[15px]">{message}</p>
+           
             <div
               className="flex flex-col gap-x-4
             md:flex-row md:items-center"
@@ -49,10 +50,12 @@ const TestimonialSlider = () => {
               <div className="w-14">
                 <img className="mb-3 md:mb-0" src={image} alt="" />
               </div>
+           
               <div>
                 <div className="font-medium text-base">{name}</div>
                 <div className="font-medium text-rose-600">{email}</div>
               </div>
+           
             </div>
           </SwiperSlide>
         );

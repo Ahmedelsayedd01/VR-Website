@@ -12,12 +12,15 @@ const NavMobile = () => {
         <li className="text-lg">
           <a href="#">Home</a>
         </li>
+        
         <li className="text-lg">
           <a href="#">Company</a>
         </li>
+        
         <li className="text-lg">
           <a href="#">Features</a>
         </li>
+        
         <li className="btn">
           <a href="#">Sign up</a>
         </li>
