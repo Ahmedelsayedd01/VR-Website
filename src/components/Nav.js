@@ -16,7 +16,7 @@ const Nav = () => {
         <li className="nav-link">
           <a href="#">Features</a>
         </li>
-        <li className="btn">
+        <li className="relative btn">
           <a href="#">Sign up</a>
         </li>
       </ul>
