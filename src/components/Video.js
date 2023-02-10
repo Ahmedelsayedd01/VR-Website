@@ -20,6 +20,8 @@ const Video = () => {
           <h3
             className="text-2xl font-semibold mb-8
           lg:mb-0"
+            data-aos="fade-right"
+            data-aos-offset="350"
           >
             Awesome experiences with virtual world
           </h3>
@@ -37,6 +39,8 @@ const Video = () => {
           <div
             className="bg-videoBg bg-no-repeat bg-cover
             w-[270px] h-[180px] flex items-center justify-center"
+            data-aos="fade-left"
+            data-aos-offset="350"
           >
             <div
               onClick={() => {

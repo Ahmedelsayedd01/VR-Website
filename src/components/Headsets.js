@@ -11,11 +11,22 @@ const Headsets = () => {
     <section className="py-12 lg:py-24">
       <div className="container mx-auto">
         {/* title */}
-        <h2 className="text-3xl font-bold mb6">Mixed Reality Headsets</h2>
+        <h2
+          className="text-3xl font-bold mb-6"
+          data-aos="fade-down"
+          data-aos-offset="300"
+        >
+          Mixed Reality Headsets
+        </h2>
         {/* grid */}
         <div className="grid gap-y-4 lg:grid-cols-2 lg:gap-9">
           {/* item 1 */}
-          <div className="relative">
+          <div
+            className="relative"
+            data-aos="zoom-in"
+            data-aos-offset="300"
+            data-aos-delay="1000"
+          >
             <img src={Headsets1} alt="" />
             <div
               className="absolute bottom-0 bg-white/20
@@ -29,7 +40,12 @@ const Headsets = () => {
             </div>
           </div>
           {/* item 2 */}
-          <div className="relative">
+          <div
+            className="relative"
+            data-aos="zoom-in"
+            data-aos-offset="300"
+            data-aos-delay="1300"
+          >
             <img src={Headsets2} alt="" />
             <div
               className="absolute bottom-0 bg-white/20
@@ -43,7 +59,12 @@ const Headsets = () => {
             </div>
           </div>
           {/* item 3 */}
-          <div className="relative">
+          <div
+            className="relative"
+            data-aos="zoom-in"
+            data-aos-offset="300"
+            data-aos-delay="1600"
+          >
             <img src={Headsets3} alt="" />
             <div
               className="absolute bottom-0 bg-white/20
@@ -57,7 +78,12 @@ const Headsets = () => {
             </div>
           </div>
           {/* item 4 */}
-          <div className="relative">
+          <div
+            className="relative"
+            data-aos="zoom-in"
+            data-aos-offset="300"
+            data-aos-delay="1900"
+          >
             <img src={Headsets4} alt="" />
             <div
               className="absolute bottom-0 bg-white/20
