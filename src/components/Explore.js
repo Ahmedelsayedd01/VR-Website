@@ -12,14 +12,14 @@ const Explore = () => {
           <h3
             className="text-3xl font-semibold mb-8"
             data-aos="fade-right"
-            data-aos-offset="1000"
+            data-aos-offset="100"
           >
             Explore product in new way
           </h3>
           <p
             className="max-w-xs mb-12"
             data-aos="fade-right"
-            data-aos-offset="1100"
+            data-aos-offset="200"
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
