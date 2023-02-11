@@ -15,9 +15,9 @@ const Header = () => {
       <div className="">
         <div className="flex items-center justify-between">
           {/* logo */}
-          <a href="#">
+          <a href="logo">
             <img className="h-[30px]" src={Logo} alt="" />
-          </a> 
+          </a>
 
           {/* nav */}
           <Nav />

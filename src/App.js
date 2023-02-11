@@ -41,6 +41,9 @@ const App = () => {
         {/* nav mobile btn open */}
         <HiMenu
           onClick={() => setNavMobile(true)}
+          data-aos="fade-down"
+          data-aos-duration="2000"
+          data-aos-delay="900"
           className="lg:hidden absolute top-[33%] right-[4%]
           text-3xl text-white cursor-pointer"
         />

@@ -20,8 +20,8 @@ const Video = () => {
           <h3
             className="text-2xl font-semibold mb-8
           lg:mb-0"
-          data-aos="fade-right"
-          data-aos-offset="350"
+            data-aos="fade-right"
+            data-aos-offset="350"
           >
             Awesome experiences with virtual world
           </h3>

@@ -12,9 +12,9 @@ const Headsets = () => {
       <div className="container mx-auto">
         {/* title */}
         <h2
-          // className="text-3xl font-bold mb-6"
-          // data-aos="fade-down"
-          // data-aos-offset="300"
+          className="text-3xl font-bold mb-6"
+          data-aos="fade-down"
+          data-aos-offset="300"
         >
           Mixed Reality Headsets
         </h2>
