@@ -17,6 +17,7 @@ import Explore from "./components/Explore";
 //import Aos Animation on Scroll
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Footer from "./components/Footer";
 
 const App = () => {
   const [navMobile, setNavMobile] = useState(false);
@@ -72,6 +73,7 @@ const App = () => {
       <Headsets />
       <Testimonial />
       <Explore />
+      <Footer />
     </div>
   );
 };
